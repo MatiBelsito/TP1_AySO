@@ -1,0 +1,136 @@
+history
+ls -l
+history
+ls -l
+sudo dnf install terminator
+sudo apt install terminator
+
+sudo apt install cat
+grep model /proc/cpuinfo
+"grep model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+q
+cat proc/cpuinfo | grep -i "prueba"
+man bc
+bc
+cd <<< 1+3
+bc<<<1+3
+sudo journalctl -k
+sudo su
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep "model name"
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | tail -n1
+echo "col1 col2 col3   col4    col5" | awk '{print}'
+echo "col1 col2 col3   col4    col5" | awk '{print $2}'
+echo "col1 col2 col3   col4    col5" | awk '{print "columna 2 " $2}'
+cat /proc/cpuinfo | awk '{print $1}'
+man passwd
+cls
+clear
+man 5 passwd
+pwd
+whoami
+echo "soy: $(whoami)"
+grep $(whoami) /etc/passwd
+grep -E 'root |$(whoami)' /etc/passwd
+grep -E "root|$(whoami)" /etc/passwd
+useradd pepe
+sudo useradd pepe
+grep -E "root|$(whoami)|pepe" /etc/passwd
+sudo su
+man useradd
+sudo useradd -m -s /bin/bash -c "creamos un usuario" usuario_2
+grep -E "root|$(whoami)|pepe|usuario_2" /etc/passwd
+ls -l /home
+sudo passwd usuario_2
+su -usuario_2
+su - usuario_2
+pwd
+git status
+ls -l
+cd repogit
+git status
+cd TP1_AySO/
+git status
+git push
+exit
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls $HOME/.ssh/
+cd
+mkdir repogit
+git clone m:MatiBelsito/TP1_AySO.git~
+
+git clone git@github.com:MatiBelsito/TP1_AySO.git
+cd TP1_AySO/pwd
+ls -l
+cat /etc/os-release
+grep -- help
+cd repogit/
+cd TP1_AySO/
+man grep
+cat /etc/os-release
+grep -i ¨nam¨ /etc/os-release
+grep -i "nam" /etc/os-release
+whoami
+id -un
+echo "Usuario= $(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado primer ejercicio sobre datos_de_usuario.txt"
+git config --global user.email "cuerdashop.matias@hotmail.com"
+git config --global user.name
+"MatiBelsito"
+git config --global user.name "MatiBelsito"
+git commit -m "ADD: agregado primer ejercicio sobre datos_de_usuario.txt"
+git status
+git push
+git status
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+git config --global user.email "cuerdashop.matias@hotmail.com"
+git config --global user.name "MatiBelsito"
+git push
+ping -c 3 8.8.8.8
+ping -c 3 github.com
+vagrant status
+cls
+cd cd repogit/
+cd repogit/
+cd TP1_AySO/
+vagrant status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat datos_usuario.txt
+cd ..
+ls -l
+ls -la
+cd TP1_AySO/
+cat <<EOF >> README.md
+Alumno: Matias Belsito
+División: 318 Turno: Noche
+EOF
+
+cat readme.d
+cat readme.md
+cd..
+cat readme.md
+git add .
+git commit -m "ADD: añadiendo Readme y datos de usuario"
+git push
+exit
+history -a
+ls -l
+history
+cat $HOME/.bash_history
+history -a
